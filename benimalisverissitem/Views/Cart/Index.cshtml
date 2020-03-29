@@ -1,0 +1,100 @@
+﻿@model benimalisverissitem.Models.Cart
+@{
+    ViewBag.Title = "Index";
+      Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+<div class="container pb-5">
+    <div class="row">
+        <div class="col-md-12">
+
+            <h2>Alışveriş Sepeti</h2>
+            <hr />
+
+            @if (Model.CartLines.Count > 0)
+            {
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+
+                            <th>Ürün</th>
+                            <th>Adet</th>
+                            <th>Ürün Adı</th>
+                            <th>Fiyat</th>
+                            <th>Toplam Tutar</th>
+                            <th>Sil</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.CartLines)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="@Url.Content(item.Products.Resim)" widh="75" height="75" />
+                                </td>
+                                <td>
+                                    @item.Quantity
+                                </td>
+                                <td>
+                                    @item.Products.UrunAdi
+                                </td>
+                                <td>
+                                    @item.Products.Fiyat
+                                </td>
+                                <td>
+                                    @((item.Products.Fiyat * item.Quantity).ToString("c"))
+                                </td>
+                                <td>
+                                    @using (Html.BeginForm("RemoveFromCart", "Cart"))
+                                    {
+                                        @Html.Hidden("Id", item.Products.Id)
+                                        <button type="submit" class="btn btn-danger">
+                                            <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                            Delete
+                                        </button>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5"></td>
+                            <td>
+                                @Model.Total().ToString("c")
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="text-center">
+                    <a href="/ClientHome/List" class="btn btn-primary">
+
+
+
+                        ← Alışverişe Devam Et
+                    </a>
+                    <a href="/Cart/Checkout" class="btn btn-primary">
+                        <i class="fa fa-check"></i>
+                        ✓ Alışverişi Tamamla
+                    </a>
+                </div>
+            }
+            else
+            {
+
+                <div class="alert alert-warning" role="alert">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                    Alışveriş Sepetinizde Ürün Bulunmamaktadır.
+                </div>
+                <a href="/ClientHome/Index" class="btn btn-primary">
+
+
+
+                    ← Alışverişe Devam Et
+                </a>
+            }
+
+        </div>
+    </div>
+</div>

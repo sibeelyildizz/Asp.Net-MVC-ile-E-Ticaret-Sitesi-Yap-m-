@@ -1,0 +1,140 @@
+﻿@model benimalisverissitem.Models.Products
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+@using (Html.BeginForm("Create","Products",FormMethod.Post,new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+
+        <div class="col-sm-6">
+            <span>
+                @User.Identity.Name
+            </span>
+        </div>
+    </div>
+    <div class="form-horizontal">
+        <h4>Ürünler</h4>
+        <hr />
+        
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.UrunAdi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.UrunAdi, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.UrunAdi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Aciklama, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Aciklama, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Aciklama, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.KategoriId, "KategoriId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("KategoriId", null, "Kategori seçiniz.", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.KategoriId, "", new { @class = "text-danger" })
+            </div>
+            </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MarkaID, "MarkaID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("MarkaID", null, "Marka Seçiniz", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.MarkaID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.BedenID, "BedenID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("BedenID", null, "Beden Seçiniz", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.BedenID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.RenkID, "RenkID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("RenkID", null, "Renk Seçiniz.", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.RenkID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CinsiyetID, "CinsiyetID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("CinsiyetID", null, "Cinsiyet seçiniz.", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.CinsiyetID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Resim, new { @class = "control-label col-md-2" })
+             <input type="file" name="Imagefile" required />
+
+        </div>
+       
+     
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Fiyat, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Fiyat, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Fiyat, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Il_ID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("Il_ID", null, "İl seçiniz.", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Il_ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Ilce_ID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("Ilce_ID", null, "İlçe seçiniz.", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Ilce_ID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.IndirimID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("IndirimID", null, "İndirim Seçiniz.", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IndirimID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Ürünlerin Listesine Dön", "Index")
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

@@ -1,0 +1,72 @@
+﻿@model benimalisverissitem.Models.OrderDetailsModel
+
+@{
+    ViewBag.Title = "Details";
+     Layout = "~/Views/Shared/_Layout3.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <h2>Sipariş Detay Bilgileri</h2>
+            <hr />
+
+            <dl class="row">
+
+                <dt class="col-sm-3">Sipariş Durumu</dt>
+                <dd class="col-sm-9">
+                    @if (Model.SiparisDurumu == EnumOrderState.Bekliyor)
+                    {
+                        <span class="badge-danger">Onay Bekliyor</span>
+                    }
+                    else if (Model.SiparisDurumu == EnumOrderState.Tamamlandı)
+                    {
+                        <span class="badge-success">Sipariş Tamamlandı.</span>
+                    }
+                </dd>
+
+                <dt class="col-sm-3">Sipariş Id</dt>
+                <dd class="col-sm-9">@Model.OrderId</dd>
+
+                <dt class="col-sm-3">Sipariş Numarası</dt>
+                <dd class="col-sm-9">@Model.SiparisNo</dd>
+
+                <dt class="col-sm-3">Total</dt>
+                <dd class="col-sm-9">
+                    <i class="fa fa-try" aria-hidden="true"></i>
+                    @Model.Toplam
+                </dd>
+
+                <dt class="col-sm-3">Sipariş Tarihi</dt>
+                <dd class="col-sm-9">@Model.SiparisTarihi</dd>
+
+
+                <dt class="col-sm-3">Adres</dt>
+                <dd class="col-sm-9">
+                    @Model.AdresBasligi
+                    <hr />
+                    @Model.Adres
+                    <br />
+                    @Model.Sehir - @Model.Semt - @Model.Mahalle
+                    <br />
+                    @Model.PostaKodu
+                </dd>
+
+
+                @foreach (var item in Model.Orderlines)
+                {
+                    
+
+            <a href="/ClientHome/Details/@item.Products_Id" class="btn btn-warning" align="right" target="_blank" float: right;>
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                   Ürüne Git
+            </a>
+                }
+
+            </dl>
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<benimalisverissitem.Models.Towns>
+
+
+@using (Html.BeginForm("List", "ClientHome", FormMethod.Post))
+{ 
+    <div>
+
+        
+      @Html.DropDownList("Id", null, "Ilceler" ,new { @class = "form-control" })
+        
+
+
+
+    </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+             @*<input type="submit" href="/ClientHome/List" value="Listele"  />*@
+
+            </div>
+        </div>
+    }
+
+
+

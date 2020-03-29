@@ -1,0 +1,119 @@
+﻿@model IEnumerable<benimalisverissitem.Models.Products>
+@{
+    ViewBag.Title = "Index";
+    Layout = Request.IsAjaxRequest() ? null : "~/Views/Shared/_Layout2.cshtml";
+
+}
+   
+
+    
+
+    <div class="row">
+        <img src="/RESIMLER/resimmm.jpg" width="3000" height="569" background-color="#f01212" />
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4">
+
+                <div class="card">
+
+                    <div class="card-body">
+                        <h5 class="card-title">@product.UrunAdi</h5>
+
+
+                        <img src="@Url.Content(product.Resim)" class="img-responsive w-100" />
+
+                    </div>
+
+                    <h1><font size="5" color="black">@product.Fiyat ₺</font> </h1>
+
+
+                    <a href="/ClientHome/Details/@product.Id" class="btn btn-warning"> <i class="fa fa-chevron-right" mr-2> </i> Ürünü incele</a>
+
+
+
+                    <a href="#" class="btn btn-primary">
+                        <i class="fa fa-shopping-cart mr-2"></i>Sepete Ekle
+                    </a>
+                    <a href="#" class="btn btn-danger"> <i class="fa fa-heart mr-2"></i>Favorilere Ekle</a>
+                    <div class="card-footer">
+
+
+
+                        <small class="text-muted">--</small>
+                    </div>
+
+
+
+                    <small class="text-muted">--</small>
+                </div>
+            </div>
+
+        }
+    </div>
+
+    @section scripts{
+
+        <script>
+            $('.list input').click(function () {
+
+                var categories = [];
+                var genders = [];
+                var brands = [];
+
+                $('input.category-checkbox:checkbox:checked').each(function () {
+                    categories.push($(this).val());
+                });
+                $('input.gender-checkbox:checkbox:checked').each(function () {
+                    genders.push($(this).val());
+                });
+                $('input.brand-checkbox:checkbox:checked').each(function () {
+                    brands.push($(this).val());
+                });
+
+
+
+                $.ajax({
+                    url: "/clienthome/list",
+                    type: "POST",
+                    traditional: true,
+                    data: { categories: categories, genders: genders, brands: brands },
+                    success: function (data) {
+                        $('#main').html(data);
+                    }
+                });
+
+            });
+
+        </script>
+    }
+    @*<div class="row">
+            <div class="col-lg-2">
+
+                @{Html.RenderAction("CategoryList", "Categories"); }
+                @{Html.RenderAction("GenderList", "Genders");}
+
+
+            </div>
+            <div class="col-lg-10">
+
+                @foreach (var product in Model)
+                {
+                <div class="products">
+                    <h3 class="page-header">
+                        @product.UrunAdi
+                    </h3>
+                    <img src="@Url.Content(@product.Resim)" widh="300" height="300" />
+                    <p>
+                        @product.Aciklama
+                    </p>
+                </div>
+
+
+
+                }
+
+            </div>
+
+
+        </div>*@
+

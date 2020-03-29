@@ -1,0 +1,2 @@
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\obj\Release\benimalisverissitem.csprojAssemblyReference.cache
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\obj\Release\benimalisverissitem.csproj.CoreCompileInputs.cache

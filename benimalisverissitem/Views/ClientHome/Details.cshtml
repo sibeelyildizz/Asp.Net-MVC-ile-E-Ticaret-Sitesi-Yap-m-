@@ -1,0 +1,78 @@
+﻿
+@model benimalisverissitem.Models.Products
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout3.cshtml";
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+}
+
+
+<hr />
+<div class="card">
+    <div class="container pb-5">
+        <div class="row">
+
+            <div class="card-body">
+                <h1 class="card-title"> @Model.UrunAdi</h1>
+
+                <div class="col-md-4">
+                    <img src="@Url.Content(@Model.Resim)" widh="300" height="300" />
+
+
+                </div>
+                <div class="col-md-8">
+                    <h3>@Model.Aciklama</h3>
+
+                    <br />
+                    <br />
+                    <br />
+                    <h1><font size="10" color="blue">@Model.Fiyat ₺</font> </h1>
+                    @using (Html.BeginForm("AddToFav", "ClientHome"))
+                    {
+                        @Html.HiddenFor(i => i.Id)
+
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fa fa-heart mr-2"></i>Favorilere Ekle
+                        </button>
+                    }
+                    <br>
+                    @using (Html.BeginForm("AddToCart", "Cart"))
+                    {
+                        @Html.HiddenFor(i => i.Id)
+
+                        <button type="submit" class="btn btn-warning">
+                            <i class="fa fa-shopping-cart mr-2"> </i>Sepete Ekle
+                        </button>
+
+                    }
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <hr />
+
+
+    </div>
+</div>
+
+
+@*<div class="card" style="width: 28rem;">
+        <img class="card-img-top" src="http://placehold.it/900x600" alt="Card image cap">
+        <div class="card-body">
+            <h1>@Model.UrunAdi</h1>
+
+            <hr />
+            <blockquote>
+                <p>@Model.Aciklama</p>
+            </blockquote>
+
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>*@
+
+

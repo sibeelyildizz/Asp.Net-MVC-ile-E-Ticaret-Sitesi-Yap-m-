@@ -1,0 +1,15 @@
+﻿@model benimalisverissitem.Models.Products
+
+@{
+    ViewBag.Title = "Index2";
+}
+
+<h2>Index2</h2>
+
+<div class="form-group">
+    @Html.LabelFor(model => model.KategoriId, "KategoriId", new { @class = "control-label col-md-2" })
+    <div class="col-md-10">
+        @Html.DropDownList("KategoriId", null, "Kategori seçiniz.", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.KategoriId, "", new { @class = "text-danger" })
+    </div>
+</div>

@@ -1,0 +1,184 @@
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\benimalisverissitem.dll.config
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\benimalisverissitem.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\benimalisverissitem.pdb
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csc.exe
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csc.exe.config
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csc.rsp
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csi.exe
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csi.exe.config
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csi.rsp
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.AppContext.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Console.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\vbc.exe
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\vbc.exe.config
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\vbc.rsp
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Helpers.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Mvc.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Razor.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.Razor.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Razor.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.Razor.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Helpers.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Mvc.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.csprojAssemblyReference.cache
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.csproj.CoreCompileInputs.cache
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.csproj.CopyComplete
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.pdb
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\EntityFramework.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\EntityFramework.SqlServer.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\EntityFramework.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\EntityFramework.SqlServer.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Newtonsoft.Json.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Owin.dll
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sibel\Desktop\yeni\benimalisverissitem\benimalisverissitem\bin\Newtonsoft.Json.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\benimalisverissitem.dll.config
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\benimalisverissitem.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\benimalisverissitem.pdb
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csc.exe
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csc.exe.config
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csc.rsp
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csi.exe
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csi.exe.config
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\csi.rsp
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.AppContext.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Console.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\vbc.exe
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\vbc.exe.config
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\vbc.rsp
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\EntityFramework.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\EntityFramework.SqlServer.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Newtonsoft.Json.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Owin.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Helpers.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Mvc.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Razor.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.Razor.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\EntityFramework.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\EntityFramework.SqlServer.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Newtonsoft.Json.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Razor.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Webpages.Razor.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Helpers.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\System.Web.Mvc.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.csprojAssemblyReference.cache
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.csproj.CoreCompileInputs.cache
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.csproj.CopyComplete
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.dll
+C:\Users\Sibel\Desktop\2018-2019 staj\yeni\benimalisverissitem\benimalisverissitem\obj\Debug\benimalisverissitem.pdb

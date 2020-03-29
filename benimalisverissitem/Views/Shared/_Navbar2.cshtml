@@ -1,0 +1,168 @@
+﻿@*<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Moda Kapımda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">*@
+@*<ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+            <a class="nav-link" href="#">Kadın <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Erkek</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Siparişler</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Kampanyalar</a>
+        </li>
+
+
+    </ul>*@
+@*<form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Ara" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Ara</button>
+                </form>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/ClientHome/List2">Kadın<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/ClientHome/List2">Elbise</a></li>
+                        <li><a href="/Security/Logout">Çıkış Yap</a></li>
+
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Erkek <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li></li>
+                        <li><a href="/Kategoriler/Index">Kullanıcı Bilgilerim</a></li>
+                        <li><a href="/Security/Logout">Çıkış Yap</a></li>
+
+                    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sepetim /<a>
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/">@User.Identity.Name<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+
+
+                        <a class="nav-link" href="/Account/Logout">Çıkış Yap</a>
+
+
+
+
+
+                    </ul>
+
+                </li>
+
+            </div>
+
+        </div>
+    </nav>*@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-warning" color="#f01212">
+    <div class="container">
+        <a href="/ClientHome/List">  <img src="~/RESIMLER/sarılogo.PNG"  /> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        &emsp;
+        &emsp;
+        &emsp;
+        &emsp;
+        &emsp;
+        &emsp;
+        &emsp;
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+
+
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="text" placeholder="Ara" style="color:black" aria-label="Ara">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit" style="color:black">Ara</button>
+            </form>
+
+            @if (Request.IsAuthenticated)
+            {
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/" style="color:black">
+                        <i class="fa fa-user mr-2"></i>@User.Identity.Name<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+
+
+                        <a class="nav-link" href="/ClientHome/FavList" style="color:black">
+                            <i class="fa fa-heart mr-2"></i>
+                            Favorilerim
+                        </a>
+                        <a class="nav-link" href="/Account/Index" style="color:black">
+                            <i class="fa fa-shopping-bag mr-2"></i>
+                            Siparişlerim
+                        </a>
+                        <a class="nav-link" href="/Cart/Index" style="color:black">
+                            <i class="fa fa-shopping-cart mr-2"> </i>Sepetim
+                        </a>
+
+                        <a class="nav-link" href="/Account/Logout" style="color:black"><i class="fa fa-sign-out mr-2"></i>Çıkış Yap</a>
+
+
+
+
+
+                    </ul>
+
+                </li> }
+            else
+            {
+                //login ve register linkleri çıkar
+                <li class="nav-item active">
+                    <a class="nav-link " style="color:black" href="/Account/Login">
+                        <span class="fa fa-sign-in mr-2"></span>
+                        Giriş Yap
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="color:black" href="/Account/Register">
+                        <span class="fa fa-user-plus mr-2"></span>Üye Ol
+                    </a>
+                </li>
+            }
+
+
+
+
+
+        </div>
+    </div>
+</nav>
+
+
+
+

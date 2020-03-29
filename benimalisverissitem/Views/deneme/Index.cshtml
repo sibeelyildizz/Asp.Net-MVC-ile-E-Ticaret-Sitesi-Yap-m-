@@ -1,0 +1,25 @@
+﻿@model benimalisverissitem.Models.ililceviewmodel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="container">
+    <div class="form-group">
+        @if (ViewBag.ilList != null)
+        {
+            @Html.DropDownListFor(model => model.ilId, ViewBag.ilList as SelectList, "seç", new { @class = "form-control" })
+        }
+
+
+    </div>
+    <div class="form-group">
+       
+            @Html.DropDownListFor(model => model.ilceId, ViewBag.ilceList as SelectList, "seç", new { @class = "form-control" })
+        
+
+
+    </div>
+</div>

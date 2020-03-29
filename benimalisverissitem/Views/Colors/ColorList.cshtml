@@ -1,0 +1,22 @@
+﻿
+@model IEnumerable<benimalisverissitem.Models.Colors>
+
+<div class="well">
+    <h4>Renkler</h4>
+    <div class="row">
+        <div class="list">
+            <ul class="list-unstyled">
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <input type="checkbox" class="color-checkbox" name="@item.Renk" value="@item.Id" />
+                        @item.Renk
+                    </li>
+                }
+            </ul>
+
+        </div>
+
+    </div>
+</div>
+

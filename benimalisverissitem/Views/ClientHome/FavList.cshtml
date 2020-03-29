@@ -1,0 +1,84 @@
+﻿@model IEnumerable<benimalisverissitem.Models.ProductModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+<div class="container pb-5">
+    <div class="col-md-2">
+
+
+
+
+    </div>
+    <div class="row">
+
+
+
+        <div class="row">
+
+            @foreach (var product in Model)
+            {
+                <div class="col-md-4">
+
+                    <div class="card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">@product.UrunAdi</h5>
+
+                            <img class="img-responsive" src="http://placehold.it/300x200" alt="">
+
+                        </div>
+
+                        <h1><font size="10" color="blue">@product.Fiyat ₺</font> </h1>
+
+
+                        <a href="/ClientHome/Details/@product.Id" class="btn btn-warning">  Ürünü incele</a>
+
+
+
+                        <a href="#" class="btn btn-primary">Sepete Ekle</a>
+                        <a href="#" class="btn btn-danger">Favorilere Ekle</a>
+                        <div class="card-footer">
+
+
+
+                            <small class="text-muted">--</small>
+                        </div>
+
+
+
+                        <small class="text-muted">--</small>
+                    </div>
+                </div>
+
+            }
+        </div>
+
+    </div>
+</div>
+
+
+@*<div class="col-lg-10">
+                @foreach (var product in Model)
+                {
+                <div class="products">
+                    <h3 class="page-header">
+                        @product.UrunAdi
+                    </h3>
+
+
+                    <a href="/ClientHome/Details/@product.KategoriId">
+                        <img class="img-responsive" src="http://placehold.it/300x200"  alt=""> </a>
+
+                        <p>
+                            @product.Aciklama
+                        </p>
+    </div>
+                }
+
+            </div>
+
+        </div>*@
+

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<benimalisverissitem.Models.Categories>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Kategoriler</h2>
+
+<p>
+    @Html.ActionLink("Kategori Ekle", "Create",null,new { @class = "btn btn-primary btn-xs" })
+</p>
+<table class="table table-bordered table-hover table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.kategoriAdi)
+        </th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.kategoriAdi)
+        </td>
+        <td>
+            @Html.ActionLink("Güncelle", "Edit", new { id = item.Id }, new { @class = "btn btn-warning btn-xs" })
+        </td>  
+        <td>
+            @Html.ActionLink("Sil", "Delete", new { id = item.Id }, new { @class = "btn btn-danger btn-xs" })
+        </td>
+    </tr>
+}
+
+</table>
+

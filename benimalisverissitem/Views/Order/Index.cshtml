@@ -1,0 +1,42 @@
+﻿@model  IEnumerable<benimalisverissitem.Models.MagazaOrderModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+    <div class="container pb-5">
+        <h2>Siparişler</h2>
+        <hr />
+
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Sipariş Numarası</th>
+                    <th>Sipariş Tarihi</th>
+                    <th>Sipariş Durumu</th>
+                    <th>Toplam Tutar</th>
+                    <th>Adet</th>
+                    
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.SiparisNo</td>
+                        <td>@item.SiparisTarihi</td>
+                        <td>@item.SiparisDurumu</td>
+                        <td>@item.Toplam</td>
+                        <td>@item.Count</td>
+                        <td>
+                            @Html.ActionLink("Details", "Details", new { id = @item.Id }, new { @class = "btn btn-primary" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
